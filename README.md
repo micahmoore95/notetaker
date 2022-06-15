@@ -1,3 +1,4 @@
+![Screenshot](https://user-images.githubusercontent.com/97580954/173719709-5761522b-dddb-42bf-9462-b6e0db90457f.jpg)
 # NoteTaker
 
 Keep track of everything you need to do with Notetaker!
