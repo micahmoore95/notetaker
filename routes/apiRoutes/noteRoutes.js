@@ -4,12 +4,12 @@ const notes = require("../../db/db.json");
 const generateUniqueId = require("generate-unique-id");
 const path = require("path");
 
-//API GET request
+//Get route
 router.get("/notes", (req, res) => {
   res.status(200).json(notes);
 });
 
-//API POST request
+//Post route
 router.post("/notes", (req, res) => {
   const newNote = req.body;
   const id = generateUniqueId();
