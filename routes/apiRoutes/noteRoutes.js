@@ -22,4 +22,11 @@ router.post("/notes", (req, res) => {
   res.status(200).send("New note created!");
 });
 
+// Delete route
+//router.delete("/notes", (req, res) => {
+//     fs.writeFileSync(
+
+//     );
+// });
+
 module.exports = router;
